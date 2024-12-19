@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  position: relative;
+  margin-top: 30px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.warna {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #10a273 0%, #17e8a29a 100%);
+
+  opacity: 1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.content h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fitur {
+  background-image: linear-gradient(
+    180deg,
+    #5defbf 0%,
+    #8661c142 70%,
+    white 100%
+  );
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+  padding: 30px 0;
+  border-radius: 30px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.teks-kiri,
+.teks-kanan {
+  margin-top: 30px;
+}
+
+.tks h4 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.tks p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tombol a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .img-wrapper {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .tombol {
+    max-width: 170px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tombol {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .judul {
+    margin-left: 7rem;
+  }
+  .fitur {
+    max-width: 1100px;
+  }
+
+  .img-wrapper {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .teks-kiri {
+    padding-left: 150px;
+  }
+
+  .teks-kanan {
+    padding-right: 150px;
+  }
+
+  .tombol {
+    max-width: 300px;
+    margin-top: 60px;
+  }
+}

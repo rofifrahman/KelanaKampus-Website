@@ -1,0 +1,7 @@
+.hero {
+  /* background: linear-gradient(180deg, #10a273 0%, #17e8a4d4 100%); */
+  background-image: url(img\homepage-konseling.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}

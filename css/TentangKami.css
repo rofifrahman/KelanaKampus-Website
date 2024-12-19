@@ -1,0 +1,62 @@
+.container h1 {
+  color: #17e8a4;
+  padding-left: 2rem;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.container h1 span {
+  color: #a417e8;
+}
+
+#atas img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#bawah img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
+#bawah h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#bawah p,
+ol {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#tombol button {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00ff5f 0%, #128c7e 100%);
+  color: white;
+}
+
+button img {
+  max-width: 30%;
+  max-height: 30%;
+}
+
+@media (max-width: 576px) {
+  #bawah h4 {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #atas h4 {
+    padding-right: 5rem;
+  }
+}

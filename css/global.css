@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Hind", sans-serif;
+  background-color: #e9f2ef;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.navbar {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+  margin-bottom: 50px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-toggler-icon img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #fff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}

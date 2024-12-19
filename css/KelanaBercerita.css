@@ -1,0 +1,22 @@
+.profile {
+  max-width: 90px;
+  max-height: 115px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.border-gray {
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.text-gray-dark {
+  color: rgb(117, 117, 117);
+}
+
+.post-comment {
+  background-color: #e8fdf6;
+  padding: 15px;
+  border-radius: 20px;
+}

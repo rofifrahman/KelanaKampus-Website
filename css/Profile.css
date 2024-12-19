@@ -1,0 +1,37 @@
+.profile {
+  background-color: #e8fdf6;
+}
+
+.container-fluid {
+  max-width: 900px;
+}
+
+.identitas h2,
+h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.profile-atas {
+  background-color: #5defbf;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+  border-radius: 20px;
+  padding: 2rem;
+}
+.profile-atas img {
+  max-height: 170px;
+  max-width: 120px;
+  background-color: #5defbf;
+}
+
+.atas {
+  background-color: #5defbf;
+}
+
+@media (max-width: 576px) {
+  .identitas h2,
+  h3 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,83 @@
+.card-wrapper {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.card {
+  color: black;
+  text-decoration: none;
+}
+
+.card .card-body {
+  background-color: #e8fdf6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.tombol-berteman {
+  background-color: #e8a417;
+  border-radius: 20px;
+}
+
+.img-wrapper {
+  height: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: black;
+  background-color: #e8a417;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next span,
+.carousel-control-prev span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (min-width: 577px) {
+  .container h1 {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .card {
+    margin: 0.5em;
+    width: 33%;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container h1 {
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .card {
+    margin: 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 10px;
+  }
+}

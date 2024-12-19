@@ -1,0 +1,30 @@
+section {
+  height: 100vh;
+}
+
+#video {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 80px 0;
+}
+.navbar {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+}
+
+.navbar-toggler-icon img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.vidio {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card-wrapper {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.card {
+}

@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.content-box {
+  margin-top: 2rem;
+  background: #e8fdf6;
+  border-radius: 10px;
+  color: black;
+  padding: 1.5rem 2rem;
+}
+
+.kanan {
+  position: relative;
+}
+
+.kiri {
+  position: relative;
+}
+
+.tombol-atas {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.tombol-bawah {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.kanan p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kiri img {
+  width: 100%;
+  height: 100%;
+}
+
+.kanan img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .tombol-atas,
+  .tombol-bawah {
+    width: 230px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .content-box {
+    margin: 42px 100px;
+    padding: 50px 100px;
+  }
+}

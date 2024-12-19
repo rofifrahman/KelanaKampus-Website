@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile - Kelana Kampus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Profile.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="home-page.html">
+          <img
+            src="img/logo-kelana-kampus.png"
+            alt="Logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          <span style="color: #17e8a4">Kelana</span
+          ><span style="color: #a417e8">Kampus</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto fw-semibold">
+            <a class="nav-link" href="konseling.html">Konseling</a>
+            <a class="nav-link" href="teman-kelana.html">Teman Kelana</a>
+            <a class="nav-link" href="kelana-bercerita.html"
+              >Kelana Bercerita</a
+            >
+            <a class="nav-link" href="kelana-belajar.html">Kelana Belajar</a>
+            <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            <a class="nav-link" href="profile.html">Akun</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <section>
+      <div
+        class="container-fluid px-0"
+        style="background-color: #e8fdf6; border-radius: 20px"
+      >
+        <div
+          class="profile-atas d-flex flex-column flex-md-row justify-content-center align-items-center"
+          style="column-gap: 30px; row-gap: 20px"
+        >
+          <div class="img-wrapper">
+            <img src="img/celvin.jpeg" alt="" />
+          </div>
+          <div class="identitas">
+            <h2>Celv</h2>
+            <h3>celvin@gmail.com</h3>
+            <h3>08123456789</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md" style="padding: 0 3rem">
+              <div class="container mt-4 nama">
+                <h5>Nama :</h5>
+                <form action="">
+                  <input
+                    class="border-gray text-gray-dark bg-light text-start"
+                    type="text"
+                    placeholder="Nama Lengkap"
+                    style="border-radius: 10px; width: 100%"
+                  />
+                </form>
+              </div>
+              <div class="container mt-2 jenis-kelamin">
+                <h5>Jenis Kelamin :</h5>
+                <form action="">
+                  <input
+                    class="border-gray text-gray-dark bg-light text-start"
+                    type="text"
+                    placeholder="Jenis Kelamin "
+                    style="border-radius: 10px; width: 100%"
+                  />
+                </form>
+              </div>
+              <div class="container mt-2 asal-kota">
+                <h5>Asal Kota :</h5>
+                <form action="">
+                  <input
+                    class="border-gray text-gray-dark bg-light text-start"
+                    type="text"
+                    placeholder="Asal kota"
+                    style="border-radius: 10px; width: 100%"
+                  />
+                </form>
+              </div>
+              <div class="container mt-2 deskripsi-diri">
+                <h5>Deskripsi Diri :</h5>
+                <form action="">
+                  <input
+                    class="border-gray text-gray-dark bg-light text-start"
+                    type="text"
+                    placeholder="Deskripsi diri"
+                    style="border-radius: 10px; width: 100%; height: 160px"
+                  />
+                </form>
+              </div>
+              <div class="container mt-4 riwayat">
+                <h4>Riwayat Transaksi</h4>
+                <table class="table table-bordered table-align-middle">
+                  <thead>
+                    <tr>
+                      <th scope="col" style="background-color: #17e8a44d">
+                        Tanggal Transaksi
+                      </th>
+                      <th scope="col" style="background-color: #17e8a44d">
+                        Jenis Paket
+                      </th>
+                      <th scope="col" style="background-color: #17e8a44d">
+                        Status
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <td>19 November 2023</td>
+                    <td>1x sesi Konsultas</td>
+                    <td>Selesai</td>
+                  </tbody>
+                  <tbody>
+                    <td>1 November 2023</td>
+                    <td>1x Sesi Live Chat</td>
+                    <td>Selesai</td>
+                  </tbody>
+                </table>
+              </div>
+              <div class="container d-flex justify-content-center my-4">
+                <button
+                  type="button"
+                  class="btn text-center"
+                  style="
+                    border-radius: 10px;
+                    background-color: #e8a417;
+                    width: 450px;
+                    color: #fff;
+                  "
+                  onclick="logout()"
+                >
+                  Logout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container py-5" style="margin-top: 5rem">
+        <div class="row">
+          <div class="col-lg-6 col-md-4">
+            <p class="fw-bold fs-3">
+              <img
+                src="img/logo-kelana-kampus.png"
+                alt="Logo"
+                width="50"
+                height="40"
+                class="d-inline-block align-text-top"
+              />
+              <span style="color: #17e8a4">Kelana</span
+              ><span style="color: #a417e8">Kampus</span>
+            </p>
+            <p>
+              Fakultas Ilmu Komputer, Universitas Brawijaya, Kota Malang 65145
+            </p>
+            <p class="fw-semibold fs-4">
+              “Buka Hati dan Pikiran, Temukan Ketenangan”
+            </p>
+          </div>
+          <div class="col-lg-2 offset-lg-2 col-md-4 offset-md-1">
+            <div class="footer">
+              <p class="fw-semibold">Layanan</p>
+              <ul class="list-unstyled">
+                <li><a href="konseling.html">Konseling</a></li>
+                <li>
+                  <a href="teman-kelana.html">Teman Kelana</a>
+                </li>
+                <li>
+                  <a href="kelana-bercerita.html">Kelana Bercerita</a>
+                </li>
+                <li>
+                  <a href="kelana-belajar.html">Kelana Belajar</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3">
+            <div class="footer">
+              <p class="fw-semibold">Hubungi Kami</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-tiktok"></i> Tiktok</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-whatsapp"></i> whatsapp</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <script>
+      function logout() {
+        localStorage.removeItem("isLoggedIn");
+        window.location.href = "home-page.html";
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+#atas img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h2 {
+  /* font-size: 18px; */
+  font-weight: 600;
+}
+
+.live-chat {
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    #5defbf 0%,
+    #8661c142 70%,
+    white 100%
+  );
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.online {
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    #5defbf 0%,
+    #8661c142 70%,
+    white 100%
+  );
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 30%);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+#bawah {
+  margin-top: 3em;
+}
+
+#bawah img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.btn {
+  position: absolute;
+}
+
+@media (max-width: 576px) {
+  .btn .tombol {
+    position: absolute;
+    right: 0;
+    margin-left: 100px;
+  }
+}
